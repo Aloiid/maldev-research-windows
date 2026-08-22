@@ -140,7 +140,7 @@ if (pByte == NULL) {
     return -1;
     }
 //on va copier le payload récupéré dans pByte
-//on doit revenir au début du chunk qu’on vient d’ajouter !! ESSAYER DE COMPRENDRE CETTE LIGNE !!!!!!
+//on doit revenir au début du chunk qu’on vient d’ajouter !! ESSAYER DE COMPRENDRE CETTE LIGNE !!!!!!  --> on ajoute les byte récupérer à l'adresse calculé ici ((pByte + (SizeByte - dwBytesRead)).
         memcpy((PVOID)(pByte + (SizeByte - dwBytesRead)), pTmpByte, dwBytesRead); 
         //ensuite on nettoie le buffer temporaire 
         memset(pTmpByte, '\0', dwBytesRead);
