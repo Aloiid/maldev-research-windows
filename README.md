@@ -1,4 +1,4 @@
-This repository documents my journey to improve my programming skills through write-ups, experiments, and code.
+This repository documents my journey to learn and develop malware. This is new to me but this is fun !
 
 Disclaimer
 Please note the following disclaimer before proceeding:
